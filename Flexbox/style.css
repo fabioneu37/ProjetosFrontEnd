@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+}
+
+.box{
+    height: 100px;
+    flex: 1 1 auto;
+    /* flex: <grow> <shrink> <basis>*/
+}
+
+.first{
+    background-color: red;
+    flex: 2 1 auto;
+}
+
+.second{
+    background-color: green;
+    
+}
+.third{
+    background-color: blue;
+    
+}

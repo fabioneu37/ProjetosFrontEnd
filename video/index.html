@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Recursos do HTML5</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <article>
+        <div>
+            <video width="320" height="240" controls>
+                <source src="video/cidade.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div>
+            <audio controls>
+                <source src="audio/music.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div>
+            <figure>
+                <img src="img/ricefield.jpg" alt="Campo de Arroz">
+                <figcaption>Um lindo campo de arroz</figcaption>
+            </figure>
+        </div>
+        <div>
+            <h3>Preencha o formulário para receber novidades</h3>
+            <form>
+                <label>E-mail</label>
+                <input type="email" name="email" required placeholder="Digite seu E-mail" autofocus>
+                <input type="submit" name="enviar">
+
+                <label>Nome:</label>
+                <input type="text" name="name" required placeholder="Digite seu nome completo">
+                <input type="submit" name="enviar">
+            </form>
+        </div>
+        <div>
+            <p contenteditable="true">Este parágrafo pode ser editado.</p>
+        </div>
+    </article>
+    <aside>
+        <p>Confira os nossos Produtos<a href="#">Clicando aqui</a></p>
+    </aside>
+
+    <details open="open">
+        <summary>Cachorro</summary>
+        <p>É um mamifero de 4 patas é um animal doméstico</p>
+    </details>
+    <details>
+        <summary>Gato</summary>
+        <p>É um mamifero de 4 patas é um animal doméstico</p>
+    </details>
+    <h3>Lista de Animais:</h3>
+    <form>
+        <input list="animais" name="animal">
+        <datalist id="animais">
+            <option value="Cachorro"></option>
+            <option value="Gato"></option>
+            <option value="Cavalo"></option>
+            <option value="Elefante"></option>
+        </datalist>
+    </form>
+    <p>Barra de progresso</p>
+    <progress value="63" max="100">
+        <footer>
+            <p>Rodapé</p>
+        </footer>
+</body>
+
+</html>
