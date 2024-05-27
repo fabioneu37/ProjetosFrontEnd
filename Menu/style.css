@@ -27,6 +27,24 @@ body {
 .navbar ul {
     position: relative;
     display: flex;
-    flex-direction: row;
+}
+
+.navbar ul li{
+    position: relative;
+    list-style: none;
+}
+
+.navbar ul li a{
+    position: relative;
+    height: 120px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
     
+.navbar ul li a{
+    color: #7d2ae8;
+    font-size: 38px;
 }
