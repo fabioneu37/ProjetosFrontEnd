@@ -392,6 +392,10 @@ span {
         margin-bottom: 7rem;
     }
 
+    .contact {
+        min-height: auto;
+    }
+
     .footer {
         padding: 2rem 3%;
     }
@@ -463,6 +467,23 @@ span {
     }
 
     .portifolio-container {
-        grid-template-columns: (2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-widht: 617px){
+    .portifolio-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-widht: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .contact form .input-box input {
+        width: 100%;
     }
 }
